@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10sp"
+    android:id="@+id/LinearLayoutItem">
+    <ImageView
+        android:layout_margin="5sp"
+        android:layout_width="100sp"
+        android:src="@drawable/milk"
+        android:scaleType="fitXY"
+        android:layout_height="200sp"
+        android:id="@+id/ImageViewItem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewItem"
+        android:layout_margin="5sp"
+        android:text="nandini milk
+blue pack"
+        android:maxWidth="150sp"
+        android:textSize="26sp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextView01"
+        android:layout_weight="1"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CheckBoxSelected"
+        android:clickable="false"
+        android:layout_margin="5sp"
+        android:focusable="false"/>
+
+</LinearLayout>
